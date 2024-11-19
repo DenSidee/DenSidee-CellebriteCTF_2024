@@ -17,7 +17,7 @@
      - Using Cellebrite Physical Analyzer, the "Installed Applications" section was analyzed.
      - Cross-checked with the database `applicationState.db` under the path `root/private/var/mobile/Library/FrontBoard/applicationState.db`.
      
-![image](https://github.com/user-attachments/assets/be2fbda7-3958-4549-b82d-388b56d0f0f1)
+![image](https://github.com/user-attachments/assets/24bf76f0-12f4-4542-8899-960661274e0f)
 
 ---
 
@@ -26,8 +26,7 @@
    - **How the Answer Was Found:**
      - The configuration file `com.apple.sharingd.plist` was analyzed under the path `root/private/var/mobile/Library/Preferences/com.apple.sharingd.plist`.
     
-     ![image](https://github.com/user-attachments/assets/14e7c819-c416-4000-aaa0-6f3c8ac35726)
-
+ ![image](https://github.com/user-attachments/assets/868f7a51-9b83-4c42-8f72-c84e43438365)
 
 ---
 
@@ -36,7 +35,7 @@
    - **How the Answer Was Found:**
      - The file `com.life360.safetymap.plist` was analyzed under the path `root/private/var/mobile/Containers/Data/Application/[UUID]/Library/Preferences/com.life360.safetymap.plist`.
 
-     ![image](https://github.com/user-attachments/assets/be7b35cb-eb08-4e18-a23b-a2bc4601609d)
+![image](https://github.com/user-attachments/assets/eac40cdb-6dea-47b2-b267-b0887c89caad)
 
 
 ---
@@ -47,8 +46,7 @@
      - The database `knowledgeC.db` under `root/private/var/mobile/Library/CoreDuet/Knowledge/knowledgeC.db` was inspected.
      - Located in the `zstructuremetadata` table.
     
-     ![image](https://github.com/user-attachments/assets/c49be569-c092-4604-bd4a-9641bf9fa7bc)
-
+ ![image](https://github.com/user-attachments/assets/c1303ad1-c6c7-4158-8155-2c02058c72c4)
 
 ---
 
@@ -58,7 +56,7 @@
      - Logs in `launchd.log` were analyzed from the path `root/private/var/log/com.apple.xpc.launchd/launchd.log`.
      - The last event was recorded as "removing child: pid/42954" on the specified date.
 
-![image](https://github.com/user-attachments/assets/bbd5c2fa-c542-4324-8d7b-9037f3daaa7f)
+![image](https://github.com/user-attachments/assets/42083e76-bf04-46ca-8100-22e194a937a6)
 
 ---
 
@@ -70,11 +68,9 @@
      - Browser history in the `History.db` database under `root/private/var/mobile/Library/Safari/History.db` was examined.
      - The relevant webpage revealed the order details.
     
-     ![image](https://github.com/user-attachments/assets/6193db00-c179-4057-a166-ec1e804d1f16)
+![image](https://github.com/user-attachments/assets/b5966c0f-013c-4ab0-9bcd-dc6e7b5e4d78)
 
-     ![image](https://github.com/user-attachments/assets/ffd47c5c-f698-4060-938f-76c3f5b4f553)
-
-
+![image](https://github.com/user-attachments/assets/2efc54ed-ee17-4a60-8700-1c31f479b15b)
 
 ---
 
@@ -85,9 +81,7 @@
        `root/private/var/mobile/Containers/Data/Application/[UUID]/Library/Application Support/[UUID]/f54a0e25-c772-4afa-adfb-e15122509e1c.json`.
      - The MD5 hash was computed.
 
-     ![image](https://github.com/user-attachments/assets/aa74c49e-db8d-41a8-ab19-792afb81ac61)   ![image](https://github.com/user-attachments/assets/2105b804-b8ab-474f-a313-e1a1f46fc736)
-
-
+   ![image](https://github.com/user-attachments/assets/54d564df-fd51-40fe-9439-60df78f56df1)     ![image](https://github.com/user-attachments/assets/7fc98b23-3f19-4013-bc3d-060fe55b2b53)
 
 ---
 
@@ -97,8 +91,7 @@
      - The database `default.realm` was analyzed, specifically the `DataPlace` table, from the path:
        `root/private/var/mobile/Containers/Data/Application/[UUID]/Documents/default.realm`.
 
-  ![image](https://github.com/user-attachments/assets/2f30eab2-f4a3-422d-bfc7-f444508d396d)
-
+![image](https://github.com/user-attachments/assets/d7b7ce81-545c-4833-a297-000c0a83d8e6)
 
 ---
 
@@ -108,7 +101,8 @@
      - The configuration file `com.what3words.ios.what3words.plist` was analyzed under the path:
        `root/private/var/mobile/Containers/Data/Application/[UUID]/Library/Preferences/com.what3words.ios.what3words.plist`.
 
-![image](https://github.com/user-attachments/assets/e3c25638-5ee7-4bc9-833c-3824824912ca)
+![image](https://github.com/user-attachments/assets/ec04ce9c-fad9-4d13-ae2d-3f9c7401bb13)
+
 
 ---
 
@@ -118,7 +112,7 @@
      - The configuration file `com.apple.MobileSMS.plist` was analyzed under the path:
        `root/private/var/mobile/Library/Preferences/com.apple.MobileSMS.plist`.
 
-![image](https://github.com/user-attachments/assets/0a834f39-e8b7-4c60-bd3a-4d9fff69f9b7)
+![image](https://github.com/user-attachments/assets/7f1543f1-a8c3-4c50-be21-ca224a71faf4)
 
 ---
 
@@ -129,8 +123,7 @@
        `root/private/var/mobile/Library/Weather/weather-data.db`.
      - The `locationInfo` table was decoded to retrieve location names.
 
-
-![image](https://github.com/user-attachments/assets/922a14ed-4a9a-4e9c-bda6-5cd1c3726358)
+![image](https://github.com/user-attachments/assets/2cb81e4b-5da2-43e7-9f4e-71e63efb0dae)
 
 ---
 
