@@ -26,4 +26,5 @@ During the competition, several challenges were encountered:
 
 These challenges were addressed with a methodical approach, leveraging a variety of tools and maintaining constant collaboration among team members. This experience not only strengthened our analytical and problem-solving skills but also enriched our knowledge base for future forensic investigations.
 
-Thanks to the hard work and dedication of the team, we achieved **16th place**, a result that reflects the effort and adaptability demonstrated throughout the competition.
+Thanks to the hard work and dedication of the team, we achieved **16th place**, a result that we're proud of since it was our first CTF.
+We look forward to next year's competition, hoping we could achieve a higher position.
